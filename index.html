@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>index</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="navlinks">
+                <ul>
+                    <li><a href="#mine">HOME</a></li>
+                    <li><a href="#others">OTHERS</a></li>
+                </ul>
+            </div>
+        </nav>
+            <div class="text-box">
+                <h1>Enter the year</h1>
+            </div>
+             <div class="hero">
+                <input id="year" type="number" name="year" placeholder="">
+                <button class="btn2" onclick="nextYearPre()">Submit</button>
+                <div id="loader" class="loader" style="display:none"></div>
+                <div id="outputDiv"></div>
+            </div>
+    </section>
+
+        
+    <script src="app.js"></script>
+</body>
+</html>
